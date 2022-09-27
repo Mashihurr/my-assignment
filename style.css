@@ -6,13 +6,34 @@ body {
     display: flex;
 }
 
+.sectionTwoImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTwoImage img {
+    width: 40%;
+    border-radius: 50%;
+}
+
 .half {
     width: 50%;
     margin-left: 50px;
 }
 
 .half img {
-    width: 35%;
+    width: 40%;
+}
+
+.thirdSectionImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdSectionImage img {
+    width: 60%;
     margin-left: 20px;
 }
 
@@ -20,7 +41,7 @@ body {
     color: coral;
 }
 
-#mid {
+.mid {
     text-align: center;
 }
 
@@ -29,6 +50,7 @@ body {
     background-image: linear-gradient(tomato, pink);
     padding: 5px 20px;
     border-radius: 5px;
+    color: white;
 }
 
 .small {
@@ -74,4 +96,39 @@ body {
 
 .goles h3 {
     padding: 20px;
+}
+
+.forth {
+    display: flex;
+    margin-top: 30px;
+}
+
+.forthone {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.forthone img {
+    width: 50%;
+}
+
+.fifth {
+    display: flex;
+    margin-top: 10px;
+}
+
+.fifthone {
+    width: 50%;
+    margin: 50px;
+    align-items: center;
+    align-content: center;
+}
+
+.fifthone img {
+    width: 50%;
+    margin: 50px;
+}
+
+.fifthone p {
+    margin-right: 50px;
 }
