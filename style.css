@@ -1,0 +1,77 @@
+body {
+    margin: 0%;
+}
+
+.inline {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.half img {
+    width: 35%;
+    margin-left: 20px;
+}
+
+.color {
+    color: coral;
+}
+
+#mid {
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, pink);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.small {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150spx;
+}
+
+.mission {
+    background-color: rgb(201, 218, 217);
+    border-radius: 5px;
+}
+
+.mission p {
+    padding: 20px;
+}
+
+.mission h3 {
+    padding: 20px;
+}
+
+.vission {
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.vission p {
+    padding: 20px;
+}
+
+.vission h3 {
+    padding: 20px;
+}
+
+.goles {
+    background-color: rgb(183, 183, 95);
+    border-radius: 5px;
+}
+
+.goles p {
+    padding: 20px;
+}
+
+.goles h3 {
+    padding: 20px;
+}
